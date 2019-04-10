@@ -1,3 +1,4 @@
+import { version } from '../package.json';
 import ZlTitle from './title/index';
 
 const components = [
@@ -19,10 +20,13 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-const API = {
-  version: '1.0.0',
+export {
+  version,
   install,
   ZlTitle,
 };
 
-export default API;
+export default {
+  version,
+  install,
+};
