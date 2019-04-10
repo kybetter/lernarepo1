@@ -2,9 +2,9 @@ module.exports = {
   css: {
     extract: false,
   },
-  configureWebpack: {
-    output: {
-      libraryExport: 'default',
-    },
-  },
+  // configureWebpack: {
+  //   output: {
+  //     libraryExport: 'default',
+  //   },
+  // },
 };
